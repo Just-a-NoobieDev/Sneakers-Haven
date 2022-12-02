@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&family=Outfit:wght@300;400;500;600;700&display=swap");
+
+/* font-family: 'Meow Script', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 100%;
+  background-color: #ffffff;
+}
+
+main {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+/* CATALOG */
+h1{
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-size: 40px;
+  transform: translate(-150%, -5%);
+  position: absolute;
+
+}
+
+/* COLLECTION  */
+.Menu{
+  width: 210px;
+  margin: 20px;
+}
+
+/* COLLECTION BUTTON */
+.Menu .Menubtn{
+  display: flex;
+  height: 53px;
+  background: #fff;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 17px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 0.2ch;
+  transform: translate(-135%, 207.5%);
+
+}
+
+/* DROP DOWN ICON */
+.Menubtn i{
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+/* DROP DOWN ICON ROTATE EFFECT */
+.Menu.active .Menubtn i{
+  transform: rotate(-180deg);
+}
+
+
+/* COLLECTION CONTENT*/
+.Menu .List{
+  border-style: solid;
+  border-width: 0.2ch;
+  display: none;
+  transform: translate(-136%, 48.8%);
+  position: absolute;
+  width: 208px;
+  border-radius: 17px;
+}
+
+.Menu.active .List{
+  display: block;
+}
+
+/* COLLECTION CONTENT COLOR BG */
+.List .Content{
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  align-items: center;
+  background: #fff;
+  border-radius: 17px;
+}
+
+/* COLLECTION CONTENT HOVER */
+.List .Content:hover{
+  background: #F2F2F2;
+}
+
+
+/* ALL SHOES */
+
+.Menu2{
+  width: 210px;
+  margin: 20px;
+  margin-top: 120px;
+}
+
+/* COLLECTION BUTTON */
+.Menu2 .Menubtn2{
+  display: flex;
+  height: 53px;
+  background: #fff;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 17px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 0.2ch;
+  transform: translate(-140%, 19%);
+}
+
+/* DROP DOWN ICON */
+.Menubtn2 i{
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+/* DROP DOWN ICON ROTATE EFFECT */
+.Menu2.active .Menubtn2 i{
+  transform: rotate(-180deg);
+}
+
+
+/* COLLECTION CONTENT*/
+.Menu2 .List2{
+  position: absolute;
+  border-radius: 17px;
+  border-style: solid;
+  border-width: 0.2ch;
+  display: none;
+  transform: translate(-141%, 4%);
+  width: 208px;
+}
+
+.Menu2.active .List2{
+  display: block;
+}
+
+/* COLLECTION CONTENT COLOR BG */
+.List2 .Content2{
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  align-items: center;
+  background: #fff;
+  border-radius: 15px;
+}
+
+/* COLLECTION CONTENT HOVER */
+.List2 .Content2:hover{
+  background: #F2F2F2;
+}
+
+
+/* SIZES */
+
+.Menu3{
+  width: 210px;
+  margin: 30px;
+  margin-top: 120px;
+}
+
+/* COLLECTION BUTTON */
+.Menu3 .Menubtn3{
+  display: flex;
+  height: 53px;
+  background: #fff;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 17px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 0.2ch;
+  transform: translate(-150%, 19%);  
+}
+
+/* DROP DOWN ICON */
+.Menubtn3 i{
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+/* DROP DOWN ICON ROTATE EFFECT */
+.Menu3.active .Menubtn3 i{
+  transform: rotate(-180deg);
+}
+
+
+/* COLLECTION CONTENT*/
+.Menu3 .List3{
+  position: absolute;
+  border-radius: 17px;
+  border-style: solid;
+  border-width: 0.2ch;
+  display: none;
+  transform: translate(-150%, 4%);
+  width: 208px;
+}
+
+.Menu3.active .List3{
+  display: block;
+}
+
+/* COLLECTION CONTENT COLOR BG */
+.List3 .Content3{
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 17px;
+  align-items: center;
+  background: #fff; 
+}
+
+/* COLLECTION CONTENT HOVER */
+.List3 .Content3:hover{
+  background: #F2F2F2;
+}
+
+
+.container{
+  position: relative;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow: auto;
+}
+
+.Shoes{
+  width: 1024px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Shoes ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  justify-content: center;
+  list-style: none;
+}
+
+.Shoes img{
+  width: 400px;
+  height: 500px;
+}
+
+#Heart{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart2{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart3{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart4{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart5{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart6{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart7{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart8{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
+
+#Heart9{
+  width: 50px;
+  height: 35px;
+  transform: translate(670%, -190%);
+  cursor: pointer;
+}
