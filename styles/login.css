@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&family=Outfit:wght@300;400;500;600;700&display=swap");
+
+/* font-family: 'Meow Script', cursive; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Courier New", monospace;
+}
+
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EEE2DF;
+  
+  padding: 30px;
+}
+  .container{
+    position: relative;
+    width: 900px;
+    height: 476px;
+    perspective: 2700px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 31px 8px rgba(0, 0, 0, 0.12);
+  }
+
+.container .cover{
+  position: absolute;
+  top: 0;
+  right: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 20;
+}
+
+.container .cover::before,
+.container .cover::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #905634;
+  opacity: 0.5;
+  z-index: 12;
+}
+
+.container .cover img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 109;
+}
+
+.container .forms{
+  height: 100%;
+  left: 100%;
+  width: 100%;
+  background: #fff;
+}
+.container .form-content{
+  display: flex;
+  left: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .login-form{
+  left: 100%;
+  padding-top: 70px;
+  width: calc(100% / 2 - 25px);
+}
+.forms .form-content .title{
+  position: relative;
+  left: 120%;
+  font-family:  "SemiBold", monospace;
+  font-weight: bold;
+  font-size: 30px;
+  color: #333;
+}
+
+.forms .form-content .textline{
+  position: relative;
+  font-family:  "Courier New", monospace;
+  font-size: 11px;
+  color: #905634;
+  
+}
+
+.forms .form-content .input-boxes{
+  margin-top: 30px;
+}
+.forms .form-content .input-box{
+  display: flex;
+  left: 120%;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.form-content .input-box input{
+  height: 80%;
+  width: 80%;
+  outline: none;
+  padding-left: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  border-bottom-width: 2px;
+}
+.form-content .input-box input:focus,
+.form-content .input-box input:valid{
+  border-color: #905634;
+}
+.form-content .input-box i{
+  position: absolute;
+  margin-left: 10px;
+  color: black;
+  font-size: 17px;
+}
+.forms .form-content .text{
+  position:relative ;
+  left: 120%;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .form-content .text a{
+  left: 200%;
+  text-decoration: none;
+}
+::placeholder {
+  font-style: Light;
+  font-size: 12px;
+  color: #5d361f;
+  padding: 5px;
+}
+.forms .form-content .text a:hover{
+  left: 200%;
+  text-decoration: underline;
+}
+.forms .form-content .button{
+  color: #fff;
+  margin-top: 40px;
+}
+.forms .form-content .button input{
+  color: #fff;
+  background: #905634;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.forms .form-content .button input:hover{
+  background: #905634;
+}
+.forms .form-content label{
+  color: #905634;
+  cursor: pointer;
+}
+.forms .form-content label:hover{
+  text-decoration: underline;
+}
+.forms .form-content .login-text{
+  text-align: center;
+  margin-top: 25px;
+}
