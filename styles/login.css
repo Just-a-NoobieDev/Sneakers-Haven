@@ -16,10 +16,12 @@ body{
   align-items: center;
   justify-content: center;
   background: #EEE2DF;
-  
   padding: 30px;
 }
-  .container{
+ 
+
+
+ .container{
     position: relative;
     width: 900px;
     height: 476px;
@@ -172,4 +174,24 @@ body{
 .forms .form-content .login-text{
   text-align: center;
   margin-top: 25px;
+}
+
+.login_form button:hover{
+	background: #151c6a;
+}
+
+.form-content #email_error,
+.form-content #pass_error{
+  position: relative;
+  left: 120%;
+	margin-top: 5px;
+	width: 80%;
+	font-size: 10px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
 }

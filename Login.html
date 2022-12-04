@@ -10,6 +10,7 @@
     <!-- Css external file -->
     <link rel="stylesheet" href="styles/login.css" />
   </head>
+
   <body>
   </head>
   <body>
@@ -19,27 +20,38 @@
           <img src="adidas.jpg" alt="">
         </div>
       </div>
+
+
       <div class="forms">
           <div class="form-content">
-            <div class="login-form">
+            <div class="login-form" method="post" name="">
               <div class="title">Log in.</div>
               <div class="text">
                 <p class="textline">Welcome to the most affordable <br> shoe market site online</p>
               </div>
-            <form action="#">
+
+              <form class="login_form" method="post" name="form" onsubmit="return validated()">
               <div class="input-boxes">
                 <div class="input-box">
                   <i class="fas fa-envelope"></i>
-                  <input type="text" placeholder="Email" required>
+                  <input type="text" placeholder="Email" name="email" required>
                 </div>
+                <div id="email_error">Please fill up your Email</div>
+
+
                 <div class="input-box">
                   <i class="fa-solid fa-eye-slash"></i>
-                  <input type="password" placeholder="Password" required>
+                  <input type="password" placeholder="Password" name="password" required>
                 </div>
+                <div id="pass_error">8 characters minimum</div>
+                </div>
+
+
                 <div class="text"><a href="#">Forgot password?</a></div>
                 <div class="button input-box">
                   <input type="submit" value="LOG IN TO THE SNEAKERS HAVEN">
                 </div>
+
                 <div class="text sign-up-text">Don't have an account? <label>Register here</label></div>
               </div>
           </form>
@@ -47,6 +59,7 @@
       </div>
       </div>
     </div>
+    <script src="Validation.js"></script>
   </body>
   </html>
   </body>
