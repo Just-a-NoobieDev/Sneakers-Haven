@@ -1,5 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+
+/* start of product page */
+
+.product-image-container{
+  width: auto;
+  height: auto;
+  margin-top: 82px;
+  display: flex;
+}
+
+.product-image1 img {
+  background-color: red;
+  width: 600px;
+  height: 600px;  
+}
+
+.small-image-container{
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-image2 img{
+  background-color: green;
+  width: 196px;
+  height: 182px;
+}
+
+
+
+
+/* start of produc description-container */
+
+
+.product-description-container{
+  margin-top: 217px;
+}
+
+.back-catalog{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 129px;
+  color: #432818;
+  font-size: 20px;
+}
+
+
+
+.back-catalog i{
+  margin-right: 10px;
+  cursor: pointer;
+  color: #432818;
+  font-size: 20px;
+}
+
+.product-name{
+  font-size: 32px;
+}
+
+.product-description-container .product-name, .product-desc{
+  margin-bottom: 20px;
+  margin-left: 129px;
+}
+
+.product-description-container p{
+  height: 96px;
+  width: 518px;
+  font-family: 'Poppins', sans-serif;
+  color: #432818;
+}
+
+.product-details{
+  margin-top: 20px;
+}
+
+
+.color{
+  margin-left: 129px;
+  font-size: 18px;
+  color: #432818;
+}
+
+.color-btn{
+  margin: 20px 0 0 10px;
+  
+  
+}
+
+.color-btn-container{
+  margin-left: 129px;
+}
+
+.size-label{
+  margin-left: 129px;
+  
+}
+
+.size-choice{
+  width: 160px;
+  border: 2px solid #432818;
+  border-radius: 10px;
+  margin: 20px 0 0 129px;
+  padding: 13px 20px 17px 20px;
+}
+
+.product-price{
+  padding-top: 20px;
+  margin-left: 129px;
+}
+
+.btn-cart{
+  width: 209px;
+  height: 47px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 129px;
+  border-radius: 20px;
+  background-color: #432818;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-cart img{
+  padding-left: 15px;
+}
+
+.heart-icon-fav{
+  margin-left: 20px;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+
+/* end of product description-container */
+
+/* start of other-collection-container */
+
+.collection-container{
+  margin-top: 109px;
+  margin-bottom: 100px;
+ 
+}
+
+.collection-container h2{
+  display: inline;
+  font-size: 32px
+}
+
+
+.other-collection-label{
+  margin-right: 664px;
+  width: auto;
+}
+
+.other-collection-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.arrow-switch{
+  font-size: 50px;
+  color: #432818;
+  padding-left: 20px;
+}
+
+.other-image-collection img{
+  width: 389px;
+  height: 506px;   
+  margin-top: 36px;
+  margin-bottom: 36px;
+  
+}
+
+
+
+.other-image-collection{
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-image-collection-product-name{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.other-image-collection-product-name i{
+  /* padding-left: 100px; */
+  font-size: 30px;
+  color: red;
+}
+
+.other-image-collection-product-name p{
+  font-size: 20px;
+}
+
+
+
+.collection-img-collection{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+
+.img1-collection p, .img2-collection p, .img3-collection p {
+  font-size: 20px;
+}
+
+.img1-collection i, .img2-collection i, .img3-collection i {
+  color: red;
+  margin-left: 220px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/* end of other-collection-container */
+
+
+/* rating and reviews */
+
+.rate-container{
+  display: flex;
+  margin-top: 73px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rate-container i{
+  font-size: 28px;
+  color: #FFC700;
+  padding-left: 20px;
+}
+
+.star-rate p{
+ font-size: 24px;
+ padding-top: 21px;
+ padding-left: 20px;
+ 
+}
+
+.star-rate span{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+
+.rating-feedback{
+  width: 445px;
+  height: 218px;
+  border: #432818 solid;
+  border-radius: 54px;
+  padding: 20px;
+  
+}
+
+.img-h3{
+  display: flex;
+  align-items: center;
+
+}
+
+.rating-feedback img{
+  width: 60px;
+  height: 50px;
+}
+
+.rating-feedback h3{
+  display: inline;
+  padding: 20px;
+
+}
+
+
+.rating-reviews-container{
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end of product page */

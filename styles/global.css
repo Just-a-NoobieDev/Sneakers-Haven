@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&family=Outfit:wght@300;400;500;600;700&display=swap");
+
+/* font-family: 'Meow Script', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 100%;
+  background-color: #ffffff;
+}
+
+main {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
