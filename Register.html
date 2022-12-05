@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/ded4428356.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Change the title of page base on its purpose example for login (Sneaker's Haven | Login) -->
+    <title>Sneaker's Haven | Register</title>
+
+    <!-- Css external file -->
+    <link rel="stylesheet" href="styles/registration.css" />
+    <link
+    href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  </head>
+  <body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cover">
+        <div class="front">
+          <img src="danilo-capece-NoVnXXmDNi0-unsplash.jpg" alt="">
+
+        </div>
+      </div>
+      <div class="forms">
+          <div class="form-content">
+            <div class="Register-form">
+              <div class="title">Level up your style.</div>
+              <div class="text">
+                <p class="textline">Find your favorite sneakers brand <br> in it's cheaper price here!</p>
+              </div>
+
+              <form class="Register_form" method="post" name="form" onsubmit="return validated()">
+                <div class="field text-field">
+                  <div class="input-field">
+                    <input type="text" placeholder="First Name" class="First Name" />
+                  </div>
+                </div>
+
+                <div class="field text-field">
+                  <div class="input-field">
+                    <input type="text" placeholder="Last Name" class="Last Name" />
+                  </div>
+                </div>
+               
+                
+                <div class="field email-field">
+                  <div class="input-field">
+                    <input type="email" placeholder="Email" class="email" />
+                  </div>
+                  <span class="error email-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Please enter a valid email</p>
+                  </span>
+                </div>
+
+                <div class="field create-password">
+                  <div class="input-field">
+                    <input
+                      type="password"
+                      placeholder="Create password"
+                      class="password"
+                    />
+                    <i class="bx bx-hide show-hide"></i>
+                  </div>
+                  
+                  <span class="error password-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">
+                      Please enter atleast 8 charatcer
+                      
+                    </p>
+                  </span>
+                </div>
+                <div class="field confirm-password">
+                  <div class="input-field">
+                    <input
+                      type="password"
+                      placeholder="Confirm password"
+                      class="cPassword"
+                    />
+                    <i class="bx bx-hide show-hide"></i>
+                  </div>
+                  <span class="error cPassword-error">
+                    <i class="bx bx-error-circle error-icon"></i>
+                    <p class="error-text">Password don't match</p>
+                  </span>
+                </div>
+                
+                <div class="terms">
+                  <input type="checkbox" id="checkbox">
+                  <label for="checkbox">I am agree with <a
+                    hreft="#"> Terms of  Use and Privacy Policy </a></label>
+                </div>
+
+                <div class="input-field button">
+                  <input type="submit" value="REGISTER AN ACCOUNT" />
+                </div>
+
+                <div class="account">
+                  <div class="text sign-up-text"> Already have an account? <label>Log in</label></div>
+              </form>
+              </div>
+            </div>
+          </div>
+         </body>
+       </html>
+     <script src="Register_valid.js"></script>
+    </body>
+   </html>
+  </body>
+</html>
