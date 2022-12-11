@@ -1,0 +1,66 @@
+.contents {
+  width: 100%;
+  margin: 50px 0;
+}
+.contents > h1 {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.up {
+  display: flex;
+}
+
+.up .avatar > img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.up .details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.up .details .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.up .details .name h2 {
+  border: 2px solid #432818;
+  border-radius: 30px;
+  padding: 15px 60px;
+}
+
+.v {
+  border: 1px solid #432818;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background: transparent;
+}
+
+.v:hover {
+  border: none;
+  background: #432818;
+  color: #fff;
+}
+
+.pagination > .active > a {
+  background: #432818 !important;
+  color: #fff !important;
+}
+
+.bottom {
+  margin-top: 80px;
+}
+
+#transaction .modal-dialog {
+  margin: 30px 400px !important;
+  width: 900px !important;
+}

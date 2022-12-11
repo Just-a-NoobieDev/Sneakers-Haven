@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.up {
+  gap: 80px;
+}
+
+.up > ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+.up ul > .m {
+  margin-bottom: 30px;
+}
+
+.main-footer {
+  background-color: #eee2df;
+  min-height: 330px;
+  display: flex;
+  align-items: center;
+}
+
+.copy {
+  background-color: #432818;
+  color: #fff;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-header > .l {
+  font-weight: 400 !important;
+  font-size: 64px !important;
+}

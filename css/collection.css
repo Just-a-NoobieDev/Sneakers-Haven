@@ -1,0 +1,25 @@
+.h .ph {
+  font-weight: 700 !important;
+  font-size: 40px !important;
+}
+.h {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h #options {
+  width: 210px;
+  height: 53px;
+  border: 2px solid #432818;
+  border-radius: 17px;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.h #options > option {
+  font-weight: 400;
+  font-size: 22px;
+  padding: 10px;
+}

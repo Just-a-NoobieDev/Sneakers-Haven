@@ -1,0 +1,234 @@
+.c {
+  flex-direction: column;
+}
+
+.hero {
+  min-height: 850px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.image1 {
+  width: 414px;
+  height: 408px;
+  position: relative;
+  margin-top: 100px;
+  color: #432818;
+}
+
+.image1 .img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.image1 > h1 {
+  position: absolute;
+  right: -320px;
+  top: 40px;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.image1 .cta {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image1 > .cta > p {
+  font-weight: 500;
+  font-size: 30px;
+  color: #432818;
+  line-height: 38px;
+  margin-bottom: 18px !important;
+}
+
+.image1 > .cta > a {
+  width: 250px;
+  padding: 25px 0;
+  background: #905634;
+  border-radius: 154px;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.3s;
+}
+
+.image1 > .cta > a:hover {
+  text-decoration: none;
+  color: #432818 !important;
+  background-color: #fff;
+  border: 1px solid #432818;
+  font-size: 20px;
+}
+
+.cta a:hover svg > path {
+  fill: #432818 !important;
+}
+
+.img2 {
+  position: absolute;
+  width: 269px;
+  height: 361px;
+  left: 512px;
+  top: 320px;
+}
+
+.img3 {
+  width: 445px;
+  height: 736px;
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.collection {
+  width: 100%;
+}
+
+.collection .head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection .head > h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.collection .head > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 185px;
+  border: 2px solid #432818;
+  border-radius: 154px;
+  padding: 15px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.collection .prod-wrap {
+  display: flex;
+  width: 100%;
+  gap: 55px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection .product {
+  width: 400px;
+}
+
+.collection .product > img {
+  width: 100%;
+  height: 507px;
+}
+
+.collection .product .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  max-width: 400px;
+}
+
+.collection .product .footer .details h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+  max-width: 300px;
+}
+
+.collection .p {
+  transition: all 0.3s ease-in;
+}
+
+.collection .p:hover {
+  text-decoration: none !important;
+  scale: 1.05;
+}
+
+.break {
+  width: 100%;
+  background-color: #eee2df;
+  height: 290px;
+  margin: 50px 0;
+}
+
+.break .c > h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.break .c > p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.f {
+  gap: 80px;
+}
+
+.f .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.f {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.f > img {
+  width: 656px;
+  height: 614px;
+}
+
+.form > input[type="text"],
+.form > input[type="email"] {
+  height: 60px;
+  width: 100%;
+  padding: 23px;
+  border: 1px solid #432818;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+textarea {
+  width: 100%;
+  padding: 23px;
+  border: 1px solid #432818;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.form > input::placeholder,
+textarea::placeholder {
+  color: rgba(67, 40, 24, 0.5);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.form > button {
+  background: #432818;
+  border-radius: 143px;
+  height: 54px;
+  width: 265px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
